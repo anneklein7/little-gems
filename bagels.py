@@ -32,6 +32,7 @@ def getClues(guess, secretNum):
     if guess == secretNum:
         return 'You got it!'
     
+    
     clues = []
 
     for i in range(len(guess)):
